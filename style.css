@@ -124,8 +124,9 @@ html, body {
     display: flex;
     justify-content: center;
     margin: 0 auto; 
-    width: 10em;
-    
+    width: 8em;
+    padding: 1em;
+    font-size: 10px;
 }
 
 #About a:hover{
