@@ -24,14 +24,13 @@ html, body {
     list-style: none;
     justify-content: flex-end;    
     font-size: 1em;
-    /* background-image:linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%); */
     line-height: 10px;   
     margin-top: 1em; 
     
 }
 
 #navbar li {
-    padding: 1em;
+    padding-top: 1em;
 
 }
 
@@ -197,6 +196,7 @@ html, body {
 color: white;
 margin-bottom: 2em;
 text-align: justify;
+font-size: 0.8em;
 }
 
 .flex-item a {
@@ -207,7 +207,8 @@ text-align: justify;
     margin: 0.5em;
     text-align: center;
     font-weight: bold;
-    border-radius: 4em; 
+    border-radius: 4em;
+    font-size: 0.8em; 
 }
 
 .flex-item a:hover{
