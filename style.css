@@ -117,16 +117,20 @@ html, body {
 }
 
 #About a {    
-    color: white;
-    text-decoration: none;
     font-weight: bold;
-    border-radius: 50px;
     display: flex;
     justify-content: center;
     margin: 0 auto; 
     width: 8em;
     padding: 1em;
     font-size: 1em;
+    color: white;
+    border: 2px solid #fff;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4em; 
 }
 
 #About a:hover{
@@ -208,8 +212,8 @@ text-align: justify;
 }
 
 .flex-item a:hover{
-    background-color: #FC4444;
-    border-color: #FC4444;
+    background-color: #fff;
+    color: black; 
 }
 
 /* ------------------Toolbox---------------- */
@@ -276,6 +280,7 @@ text-align: justify;
 
 
 /* Contact Form */
+
 #Contact {
     padding-top: 70px;
 }
@@ -317,25 +322,29 @@ textarea.form-control {
 }
 
 .btn {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+    width: 10em;
+    padding: 1em;
+    font-size: 1em;
+    color: white;
     border: 2px solid #fff;
     padding: 1em;
     text-decoration: none;
-    font-size: 1em;
+    text-align: center;
     font-weight: bold;
-    width: 10em;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    cursor: pointer;
-    background-color: transparent;
-    color: white;
-    text-align: center;
     border-radius: 4em;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    cursor: pointer;
 
 }
 
 .btn:hover{
-    background-color: #FC4444;
-    border-color: #FC4444;
+    background-color: #fff;
+    color: black; 
 } 
 
 
@@ -388,8 +397,8 @@ textarea.form-control {
 }
 
 #back-to-top:hover{
-    background-color: #FC4444;
-    border-color: #FC4444;
+    background-color: #fff;
+    color: black; 
 } 
 
 /* Footer */
