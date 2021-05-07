@@ -128,7 +128,8 @@ html, body {
     text-decoration: none;
     text-align: center;
     font-weight: bold;
-    border-radius: 4em; 
+    border-radius: 4em;
+    margin-bottom: 5em; 
 }
 
 #About a:hover{
