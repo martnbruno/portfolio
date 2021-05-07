@@ -62,14 +62,14 @@ html, body {
 
 #welcome-section h1 {
     text-align: center;
-    font-size: 4em;    
+    font-size: 3em;    
     color:white;
     margin: 0;
 }
 
 #welcome-section p {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color:white;
     margin-top: 20px;
 }
