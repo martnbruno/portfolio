@@ -117,13 +117,13 @@ html, body {
 }
 
 #About a {    
-    color: turquoise;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     border-radius: 50px;
     display: flex;
     justify-content: center;
-    margin: 0 auto; 
+    /* margin: 0 auto;  */
     width: 8em;
     padding: 1em;
     font-size: 1em;
