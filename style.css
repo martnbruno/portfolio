@@ -120,13 +120,11 @@ html, body {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 1em;
-    margin-right: 1em;
     border-radius: 50px;
     display: flex;
     justify-content: center;
     margin: 0 auto; 
-    width: 8em;
+    width: 10em;
     padding: 1em;
 }
 
