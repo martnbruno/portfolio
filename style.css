@@ -125,8 +125,8 @@ html, body {
     justify-content: center;
     margin: 0 auto; 
     width: 8em;
-    padding: 1em;
-    font-size: 10px;
+    padding: 2em;
+    font-size: 15px;
 }
 
 #About a:hover{
