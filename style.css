@@ -1,0 +1,755 @@
+html, body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%); 
+    background-size: cover;
+    font-weight: bold;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    
+}
+
+/* Navbar */
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+
+#navbar ul {    
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;    
+    font-size: 1em;
+    /* background-image:linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%); */
+    line-height: 10px;   
+    margin-top: 1em; 
+    
+}
+
+#navbar li {
+    padding: 1em;
+
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1em;
+    margin-right: 1em;
+    border-radius: 50px; 
+}
+
+#navbar a:hover,
+#navbar a.active {
+    background-color: #fff;
+    color: black;
+} 
+
+
+/* Hero - Welcome Section */
+
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+#welcome-section h1 {
+    text-align: center;
+    font-size: 4em;    
+    color:white;
+    margin: 0;
+}
+
+#welcome-section p {
+    text-align: center;
+    font-size: 2em;
+    color:white;
+    margin-top: 20px;
+}
+
+#welcome-section a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1em;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: 2px solid black; 
+}
+
+#welcome-section a:hover {
+    background-color: #fff;
+
+}
+/* About Me */
+
+#About {
+    padding-top: 70px;
+}
+
+#About h2 {
+    font-size: 4em;
+    text-align: center;
+    color: white;
+     
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items: center;
+    color: white;
+ 
+}
+
+.about-me p{
+    width:25em;
+    margin: 1em;
+    text-align: justify;
+}
+
+#About a {    
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1em;
+    margin-right: 1em;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+    width: auto;
+    width: 7em;
+    padding: 1em;
+}
+
+#About a:hover{
+    background-color: #fff;
+    color: black;
+    
+} 
+
+.about-me img{ 
+    margin: 1em;
+    max-width: 70%;
+    height: auto;   
+}
+
+
+/* ----------Projects------------- */
+
+#Projects {
+    padding-top: 70px;
+}
+
+#projects-title {
+    font-size: 4em;
+    text-align: center;
+    color: white;    
+}
+
+.container {
+    max-width: 2400px;
+    width: 100%;
+    margin: auto;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.flex-item {
+    width: 30%;
+    padding: 0em 2em 3em 2em;
+    margin: 1em;
+    text-align: center;
+    box-shadow: 1px 1px 14px black;
+    
+}
+
+.flex-item-h2 {
+    font-size: 2em;
+    color: white;  
+}
+
+.flex-item img {
+    width: 100%;
+    transition: 1s;
+    
+}
+
+.flex-item img:hover {
+    transform: scale(1.1);
+}
+
+.flex-item p {
+color: white;
+margin-bottom: 2em;
+text-align: justify;
+}
+
+.flex-item a {
+    color: white;
+    border: 2px solid #fff;
+    padding: 1em;
+    text-decoration: none;
+    margin: 0.5em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4em; 
+}
+
+.flex-item a:hover{
+    background-color: #FC4444;
+    border-color: #FC4444;
+}
+
+/* ------------------Toolbox---------------- */
+
+#Toolbox {
+    margin: 0 1em 0 1em;
+    padding-top: 70px; 
+
+}
+
+#Toolbox h2 {
+    font-size: 4em;
+    text-align: center;
+    color: white;   
+    
+}
+
+.toolbox-container{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+.dev-toolbox{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 2.9em;
+}
+
+#Toolbox a {
+    text-decoration: none;
+    margin: 0 1em 0 1em;
+
+}
+
+#Toolbox img {
+    width: 100px;
+    height: 100px;
+    
+}
+
+#Toolbox img:hover {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    cursor:initial;
+
+}
+
+@keyframes bounce{
+    0% {
+      top: 0px;
+    }
+    50% {
+      top: 250px;
+      width: 100px;
+      height: 50px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+
+
+/* Contact Form */
+#Contact {
+    padding-top: 70px;
+}
+#contact-title {
+    color: white;
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+    
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.form-control {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    height: 43px;
+    padding: 8px 16px;
+    background-color: #eee;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+}
+
+.form-group {
+    margin: 2em;
+    
+}
+
+.card {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+
+}
+
+.btn {
+    border: 2px solid #fff;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    width: 10em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border-radius: 4em;
+
+}
+
+.btn:hover{
+    background-color: #FC4444;
+    border-color: #FC4444;
+} 
+
+
+/* Social Links */
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-left: 1.5em;
+    margin-bottom: 5em;
+}
+.social-links a {
+    flex-direction: column;
+    color: #fff;
+    font-size: 3rem;
+    width: 4rem;
+    height: 5rem;
+    margin: 0.2em;
+    transition: 1s;
+}
+
+.social-links a:hover{
+
+    transform: scale(1.1);
+    opacity: 0.9;
+    color: black;
+}
+
+#linkedin:hover {
+    color: blue;
+}
+
+/* Back to Top */
+
+#back-to-top {
+    color: white;
+    border: 2px solid #fff;
+    padding: 1em;
+    text-decoration: none;
+    margin: 1em auto;
+    width: 7em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4em;
+}
+
+#back-to-top:hover{
+    background-color: #FC4444;
+    border-color: #FC4444;
+} 
+
+/* Footer */
+
+   footer {
+       background-image: linear-gradient(130deg,#ff7a18,#af002d 41.07%, #ff7a18);;
+       color: white;
+       font-weight: bold;
+       font-size: 1.5em;
+       text-align: center;
+   }
+
+/* Whatsapp */
+
+#whatsapp a {
+    background: none;
+    position: fixed;
+    top: 90%;
+    right: 1%;
+    
+}
+
+#whatsapp img {
+    transition: 1s;
+}
+
+#whatsapp img:hover {
+    transform: scale(1.2);
+}
+
+
+
+/* Media */
+
+@media (prefers-reduced-motion: reduce) {
+    html{
+        scroll-behavior: auto;
+    }
+}
+
+
+/* Iphone 5/SE */
+@media only screen and (min-width: 320px) and (max-width:360px) {
+    
+    #navbar ul {
+        font-size: 0.6em;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #welcome-section h1 {
+        font-size: 1.5em;
+    }
+
+    #welcome-section p {
+        font-size: 1em;
+    }
+
+    #welcome-section img {
+        width: 40px;
+        height: 40px;
+    }
+    #welcome-section a {
+        font-size: 0.6em;
+    }
+    #About h2 {
+        font-size: 1.5em;
+    }
+    .about-me p {
+        font-size: 0.7em;
+    }
+
+    #About a {
+        font-size: 0.6em;
+    }
+
+    #projects-title {
+        font-size: 1.5em;
+    }
+
+    .flex-item {
+        width: 100%;
+    }
+
+    .flex-item h2 {
+        font-size: 1em;
+    }
+
+
+    .flex-item p {
+        font-size: 0.8em;
+    }
+
+    .flex-item a {
+        font-size: 0.7em;
+    }
+
+    #Toolbox h2 {
+        font-size: 1.5em;
+    }
+
+    #Toolbox img {
+        width: 50px;
+        height: 50px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Contact h2 {
+        font-size: 1.5em;
+    }
+
+    .form-control {
+        width: 100%;
+      }
+    .form-group {
+          margin: 1em;
+          display: flex;
+          justify-content: center;
+      }
+
+    .btn {
+          font-size: 0.7em;
+      }
+    
+    #back-to-top {
+        font-size: 0.7em;
+    }
+
+    #whatsapp a {
+        top: 85%;
+    }
+
+     
+}
+
+/* Moto G4 */
+@media only screen and (min-width: 360px) and (max-width: 375px) {
+    #navbar ul {
+        font-size: 0.6em;
+        margin: 0;
+        padding: 0;
+    }
+
+    #welcome-section h1 {
+        font-size: 1.8em;
+    }
+
+    #welcome-section p {
+        font-size: 1.2em;
+    }
+
+    #welcome-section img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #About h2 {
+        font-size: 2em;
+    }
+    .about-me p {
+        font-size: 0.8em;
+    }
+    #projects-title {
+        font-size: 2em;
+    }
+
+    .flex-item {
+        width: 100%;
+    }
+
+    .flex-item p {
+        font-size: 0.8em;
+    }
+
+    .flex-item a {
+        font-size: 0.8em;
+    }
+
+    #Toolbox h2 {
+        font-size: 2em;
+    }
+
+    #Toolbox img {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Contact h2 {
+        font-size: 2em;
+    }
+
+    .form-control {
+        width: 100%;
+      }
+    .form-group {
+          margin: 1em;
+          display: flex;
+          justify-content: center;
+      }
+     
+
+  }
+
+  /* Iphone 6/7/8 */
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    #navbar ul {
+        font-size: 0.7em;
+        margin: 0;
+        padding: 0;
+    }
+
+    #welcome-section h1 {
+        font-size: 1.8em;
+    }
+
+    #welcome-section p {
+        font-size: 1.2em;
+    }
+
+    #welcome-section img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #welcome-section a {
+        font-size: 0.8em;
+    }
+
+    #About h2 {
+        font-size: 2em;
+    }
+    .about-me p {
+        font-size: 0.8em;
+    }
+
+    #About a {
+        font-size: 0.8em;
+    }
+    #projects-title {
+        font-size: 2em;
+    }
+
+    .flex-item {
+        width: 100%;
+    }
+
+    .flex-item-h2 {
+        font-size: 1.4em;
+        color: white;
+    }
+
+    .flex-item p {
+        font-size: 0.8em;
+    }
+
+    .flex-item a {
+        font-size: 0.8em;
+    }
+
+    #Toolbox h2 {
+        font-size: 2em;
+    }
+
+    #Toolbox img {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Contact h2 {
+        font-size: 2em;
+    }
+
+    .form-control {
+        width: 100%;
+      }
+    .form-group {
+          margin: 1em;
+          display: flex;
+          justify-content: center;
+      }
+      
+    .btn {
+        font-size: 0.8em;
+    }
+  
+    #back-to-top {
+        font-size: 0.8em;
+    }
+
+  #whatsapp a {
+      top: 85%;
+  }
+
+}
+
+/* Ipad */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #navbar ul {
+        font-size: 1.4em;
+        margin: 0;
+        padding: 0;
+    }
+
+    #About h2 {
+        font-size: 3em;
+    
+    }
+    .about-me p {
+        font-size: 1.4em;
+    }
+    #projects-title {
+        font-size: 3em;
+    }
+
+    .flex-item {
+        width: 100%;
+    }
+
+    .flex-item p {
+        font-size: 1.5em;
+    }
+
+    .flex-item a {
+        font-size: 1.2em;
+    }
+
+    #Toolbox h2 {
+        font-size: 3em;
+    }
+
+    #Contact h2 {
+        font-size: 3em;
+    }
+
+    .form-control {
+        width: 100%;
+      }
+    .form-group {
+          margin: 1em;
+          display: flex;
+          justify-content: center;
+      }
+
+/* Ipad Pro */
+@media only screen and (min-width: 1024px)  and (max-width:1366px){
+    
+    #About h2 {
+        font-size: 3em;
+    }
+    #projects-title {
+        font-size: 3em;
+    }
+}
+}
