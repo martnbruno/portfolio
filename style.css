@@ -126,15 +126,13 @@ html, body {
     display: flex;
     justify-content: center;
     margin: 0 auto; 
-    width: auto;
-    width: 7em;
+    width: 8em;
     padding: 1em;
 }
 
 #About a:hover{
     background-color: #fff;
-    color: black;
-    
+    color: black;    
 } 
 
 .about-me img{ 
