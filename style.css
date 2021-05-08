@@ -5,8 +5,7 @@ html, body {
     background-size: cover;
     font-weight: bold;
     scroll-behavior: smooth;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
 
 /* Navbar */
@@ -17,13 +16,7 @@ html, body {
     display: flex;
     list-style: none;
     justify-content: flex-end;    
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh; */
-    
 }
-
 
 .nav-links {    
     display: flex;
@@ -32,22 +25,14 @@ html, body {
     font-size: 1em;
     line-height: 10px;   
     margin-top: 1em;
-    padding-top: 1em;
-    
+    padding-top: 1em;    
 }
-
-/* .nav-links {
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
-} */
 
 .nav-links li {
     padding-top: 1em;
 }
 
-
- .nav-links a {
+.nav-links a {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -72,7 +57,6 @@ html, body {
     background-color: white;
     margin: 5px;
     transition: all 0.3s ease;
-
 }
 
 /* Hero - Welcome Section */
@@ -81,8 +65,7 @@ html, body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-     
+    flex-direction: column;  
 }
 
 #welcome-section h1 {
@@ -100,7 +83,6 @@ html, body {
     margin-right: 3em;
 }
 
-
 /* About Me */
 
 #About {
@@ -110,8 +92,7 @@ html, body {
 #About h2 {
     font-size: 4em;
     text-align: center;
-    color: white;
-     
+    color: white;   
 }
 
 .about-me {
@@ -120,7 +101,6 @@ html, body {
     flex-wrap:wrap;
     align-items: center;
     color: white;
- 
 }
 
 .about-me p{
@@ -158,7 +138,7 @@ html, body {
 }
 
 
-/* ----------Projects------------- */
+/* Projects*/
 
 #Projects {
     padding-top: 70px;
@@ -180,7 +160,6 @@ html, body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
 }
 
 .flex-item {
@@ -189,7 +168,6 @@ html, body {
     margin: 1em;
     text-align: center;
     box-shadow: 1px 1px 14px black;
-    
 }
 
 .flex-item-h2 {
@@ -199,8 +177,7 @@ html, body {
 
 .flex-item img {
     width: 100%;
-    transition: 1s;
-    
+    transition: 1s; 
 }
 
 .flex-item img:hover {
@@ -208,10 +185,10 @@ html, body {
 }
 
 .flex-item p {
-color: white;
-margin-bottom: 2em;
-text-align: justify;
-font-size: 0.8em;
+    color: white;
+    margin-bottom: 2em;
+    text-align: justify;
+    font-size: 0.8em;
 }
 
 .flex-item a {
@@ -231,19 +208,17 @@ font-size: 0.8em;
     color: black; 
 }
 
-/* ------------------Toolbox---------------- */
+/*Toolbox*/
 
 #Toolbox {
     margin: 0 1em 0 1em;
     padding-top: 70px; 
-
 }
 
 #Toolbox h2 {
     font-size: 4em;
     text-align: center;
     color: white;   
-    
 }
 
 .toolbox-container{
@@ -251,6 +226,7 @@ font-size: 0.8em;
     width: 100%;
     margin: auto;
 }
+
 .dev-toolbox{
      display: flex;
      flex-wrap: wrap;
@@ -262,13 +238,11 @@ font-size: 0.8em;
 #Toolbox a {
     text-decoration: none;
     margin: 0 1em 0 1em;
-
 }
 
 #Toolbox img {
     width: 100px;
-    height: 100px;
-    
+    height: 100px; 
 }
 
 #Toolbox img:hover {
@@ -276,7 +250,6 @@ font-size: 0.8em;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     cursor:initial;
-
 }
 
 @keyframes bounce{
@@ -293,7 +266,6 @@ font-size: 0.8em;
     }
   }
 
-
 /* Contact Form */
 
 #Contact {
@@ -303,8 +275,7 @@ font-size: 0.8em;
     color: white;
     font-weight: bold;
     font-size: 4em;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 textarea.form-control {
@@ -321,19 +292,16 @@ textarea.form-control {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-
 }
 
 .form-group {
-    margin: 2em;
-    
+    margin: 2em;  
 }
 
 .card {
     max-width: 900px;
     width: 100%;
     margin: auto;
-
 }
 
 .btn {
@@ -351,14 +319,12 @@ textarea.form-control {
     font-family: 'Montserrat', sans-serif;
     background-color: transparent;
     cursor: pointer;
-
 }
 
 .btn:hover{
     background-color: #fff;
     color: black; 
 } 
-
 
 /* Social Links */
 
@@ -368,6 +334,7 @@ textarea.form-control {
     margin-left: 1.5em;
     margin-bottom: 5em;
 }
+
 .social-links a {
     flex-direction: column;
     color: #fff;
@@ -379,7 +346,6 @@ textarea.form-control {
 }
 
 .social-links a:hover{
-
     transform: scale(1.1);
     opacity: 0.9;
     color: black;
@@ -415,21 +381,20 @@ textarea.form-control {
 
 /* Footer */
 
-   footer {
-       background-image: linear-gradient(130deg,#ff7a18,#af002d 41.07%, #ff7a18);;
-       color: white;
-       font-size: 1em;
-       text-align: center;
-   }
+footer {
+    background-image: linear-gradient(130deg,#ff7a18,#af002d 41.07%, #ff7a18);;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
 
-/* Whatsapp */
+/* Whatsapp Icon */
 
 #whatsapp a {
     background: none;
     position: fixed;
     top: 90%;
     right: 1%;
-    
 }
 
 #whatsapp img {
@@ -441,8 +406,6 @@ textarea.form-control {
 #whatsapp img:hover {
     transform: scale(1.2);
 }
-
-
 
 /* Media */
 
@@ -561,6 +524,11 @@ textarea.form-control {
         background-color:transparent;
         color: white;
     }
+
+    .nav-links a.active:hover{
+        background-color: #fff;
+        color: black; 
+    } 
     .nav-links {
         position: absolute;
         right: 0px;
@@ -695,6 +663,12 @@ textarea.form-control {
         background-color:transparent;
         color: white;
     }
+
+    .nav-links a.active:hover{
+        background-color: #fff;
+        color: black; 
+    } 
+
     .nav-links {
         position: absolute;
         right: 0px;
@@ -854,6 +828,12 @@ textarea.form-control {
         background-color:transparent;
         color: white;
     }
+
+    .nav-links a.active:hover{
+        background-color: #fff;
+        color: black; 
+    } 
+
     .nav-links {
         position: absolute;
         right: 0px;
@@ -967,6 +947,12 @@ textarea.form-control {
         background-color:transparent;
         color: white;
     }
+
+    .nav-links a.active:hover{
+        background-color: #fff;
+        color: black; 
+    } 
+
     .nav-links {
         position: absolute;
         right: 0px;
