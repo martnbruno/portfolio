@@ -49,6 +49,7 @@ html, body {
 
 .burger {
     display: none;
+    padding: 20px;
 }
 
 .burger div {
