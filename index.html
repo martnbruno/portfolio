@@ -1,168 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./css/all.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <title>Martin Bruno</title>
-    </head>
-    <body>
-        <nav id="navbar">
-            <ul class="nav-links">
-                <li><a href="#welcome-section" class="active">Home</a></li>
-                <li><a href="#About">About Me</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Toolbox">Toolbox</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-            <div class="burger">
-              <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
-            </div>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Martin Bruno</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul class="nav-links">
+        <li><a href="#welcome-section" class="active">Home</a></li>
+        <li><a href="#About">About Me</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Toolbox">Toolbox</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
 
-        <section id="welcome-section">
-            <h1 class="animate__animated animate__fadeInDown">Hi! My name is Martin <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="70" height="70" style="max-width:100%;"></h1><br>
-            <p class="animate__animated animate__fadeInLeft">Front-End Web Developer</p> 
-        </section>
+    <section id="welcome-section">
+      <h1 class="animate__animated animate__fadeInDown">
+        Hi! My name is Martin
+        <img
+          src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif"
+          width="70"
+          height="70"
+          style="max-width: 100%"
+        />
+      </h1>
+      <br />
+      <p class="animate__animated animate__fadeInLeft">
+        Front-End Web Developer
+      </p>
+    </section>
 
-        <section id="About">
-            <h2>About Me</h2>
-            <div class="about-me">            
-                    <img src="./assets/profile.png" alt="profile pic">
-                    <p>I am a professional who admires technology and its potential to transform the world. My main goal is to work as a web developer within a team that encourages the achievement of joint objectives and allows me to continue improving. In this way, I concentrate my energy on learning to the fullest, being constant and proactive to advance each day and improve my professional and personal capacities. Among my favorite hobbies are swimming and soccer. I also declare myself a techie, and I enjoy looking for the latest news and upcoming hardware and software releases.</p>
-            </div>
-            <a href="https://drive.google.com/file/d/1puB5RfKzFGTl9NKWY4Q-kg4bKerL_Ma8/view" target="_blank" >View Resume</a>
-        </section>
-        
-        <section id="Projects">
-            <h2 id="projects-title">Projects</h2>            
-                <div class="container">
-                  <div id="flex-container">
-                    <div class="flex-item">
-                        <h2 class="flex-item-h2">Animals</h2>      
-                        <img src="./assets/animals.gif" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non consequuntur adipisci ex maxime unde cumque omnis! Molestiae ipsam excepturi consectetur.</p>                                       
-                        <a href="https://m-bruno.github.io/animals/" target="_blank">See Live Now</a>
-                        <a href="https://m-bruno.github.io/animals/" target="_blank">Source Code</a>  
-                    </div>
-                    <div class="flex-item">
-                        <h2 class="flex-item-h2">Garage Sale</h2>
-                        <img src="./assets/ventagarage.gif" alt="Garage Sale">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non consequuntur adipisci ex maxime unde cumque omnis! Molestiae ipsam excepturi consectetur.</p>                         
-                        <a href="https://m-bruno.github.io/garage.sale/" target="_blank">See Live Now</a>
-                        <a href="https://m-bruno.github.io/garage.sale/" target="_blank">Source Code</a>
-                    </div>          
-                    <div class="flex-item">
-                        <h2 class="flex-item-h2">Robofriends</h2>
-                        <img src="./assets/robofriends.gif" alt="Robofriends">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non consequuntur adipisci ex maxime unde cumque omnis! Molestiae ipsam excepturi consectetur.</p>                      
-                        <a href="https://m-bruno.github.io/robofriends/" target="_blank">See Live Now</a>
-                        <a href="https://github.com/m-bruno/robofriends" target="_blank">Source Code</a>
-                    </div>          
-                    <div class="flex-item">
-                        <h2 class="flex-item-h2">Magic Brain</h2>
-                        <img src="./assets/magicbrain.gif" alt="Magic Brain">    
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non consequuntur adipisci ex maxime unde cumque omnis! Molestiae ipsam excepturi consectetur.</p>                   
-                        <a href="https://face-recognition-brain-v1.herokuapp.com/" target="_blank" >See Live Now</a>
-                        <a href="https://github.com/m-bruno/face-recognition-brain" target="_blank">Source Code</a>
-                    </div>
-                  </div>
-                </div>  
-        </section>
+    <section id="About">
+      <h2>About Me</h2>
+      <div class="about-me">
+        <img src="./assets/profile.png" alt="profile pic" />
+        <p>
+          I am a professional who admires technology and its potential to
+          transform the world. My main goal is to work as a web developer within
+          a team that encourages the achievement of joint objectives and allows
+          me to continue improving. In this way, I concentrate my energy on
+          learning to the fullest, being constant and proactive to advance each
+          day and improve my professional and personal capacities. Among my
+          favorite hobbies are swimming and soccer. I also declare myself a
+          techie, and I enjoy looking for the latest news and upcoming hardware
+          and software releases.
+        </p>
+      </div>
+      <a
+        href="https://drive.google.com/file/d/1puB5RfKzFGTl9NKWY4Q-kg4bKerL_Ma8/view"
+        target="_blank"
+        >View Resume</a
+      >
+    </section>
 
-        <section id="Toolbox">
-            <h2>Toolbox</h2>
-              <div class="toolbox-container">
-                <div class="dev-toolbox">
-                    <a href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/html5/html5-original.svg" alt="HTML5">
-                      </a>
-                      <a href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/css3/css3-original.svg" alt="CSS3">
-                      </a>
-                      <a href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/sass/sass-original.svg" alt="Sass">
-                      </a>
-                      <a href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap">
-                      </a>                  
-                      <a href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/javascript/javascript-original.svg" alt="JavaScript">
-                      </a>
-                      <a href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/react/react-original.svg" alt="React">
-                      </a>
-                      <a href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/redux/redux-original.svg" alt="Redux">
-                      </a>
-                      <a href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/gatsby/gatsby-original.svg" alt="Gatsby">
-                      </a>                
-                      <a href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/nodejs/nodejs-original.svg" alt="NodeJS">
-                      </a>
-                      <a href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/express/express-original.svg" alt="ExpressJS">
-                      </a>
-                      <a href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/postgresql/postgresql-original.svg" alt="Postgres">
-                      </a>
-                      <a href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/heroku/heroku-original.svg" alt="Heroku">
-                      </a>
-                      <a href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/git/git-original.svg" alt="Git">
-                      </a>
-                      <a href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/github/github-original.svg" alt="GitHub">                    
-                      </a>
-                </div>
-            </div>
-        </section>
-        
-        <section id="Contact">            
-            <h2 id="contact-title">Let's work together!</h2>
-            <div class="card">
-                <div class="card-block">                  
-                  <form method="POST" action="mailto:mb.martinbruno@gmail.com" class="reveal-content">
-                    <div class="form-group">
-                      <input type="email" class="form-control" id="email" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                      <input type="text" class="form-control" id="subject" placeholder="Subject">
-                    </div>
-                    <div class="form-group">
-                      <textarea class="form-control" rows="5" placeholder="Enter your message"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn">Send</button>
-                    </div> 
-                  </form>
-                </div>
-              </div> 
-            <div class="social-links">            
-                <a href="https://www.linkedin.com/in/martin-bruno/" target="_blank" id="linkedin"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/m-bruno" target="_blank"><i class="fab fa-github"></i></a>
-            </div>
-        </section> 
+    <section id="Projects">
+      <h2 id="projects-title">Projects</h2>
+      <div class="container">
+        <div id="flex-container">
+          <div class="flex-item">
+            <h2 class="flex-item-h2">Veterinary Appointments</h2>
+            <img src="./assets/pacientes.gif" alt="sitio de la app para administrar pacientes" />
+            <p>
+              Site built with React.js in order to manage veterinary appointments.
+            </p>
+            <a href="https://administrapacientes.netlify.app/" target="_blank"
+              >See Live Now</a
+            >
+            <a href="https://github.com/m-bruno/administrador-pacientes" target="_blank"
+              >Source Code</a
+            >
+          </div>
+          <div class="flex-item">
+            <h2 class="flex-item-h2">React Task Tracker</h2>
+            <img src="./assets/mistareas.gif" alt="App de tareas" />
+            <p>
+              App developed with React.js to make easier for the users to track their daily tasks.
+            </p>
+            <a href="https://recordar.netlify.app/" target="_blank"
+              >See Live Now</a
+            >
+            <a href="https://github.com/m-bruno/react-task-tracker" target="_blank"
+              >Source Code</a
+            >
+          </div>
+          <div class="flex-item">
+            <h2 class="flex-item-h2">Robofriends</h2>
+            <img src="./assets/robofriends.gif" alt="Robofriends" />
+            <p>
+              The robofriends app developed with React.js fetches different robot-users from an API and displays them in styled cards. It also comes with a searchbox that allows the user to filter the robots.
+            </p>
+            <a href="https://m-bruno.github.io/robofriends/" target="_blank"
+              >See Live Now</a
+            >
+            <a href="https://github.com/m-bruno/robofriends" target="_blank"
+              >Source Code</a
+            >
+          </div>
+          <div class="flex-item">
+            <h2 class="flex-item-h2">Magic Brain</h2>
+            <img src="./assets/magicbrain.gif" alt="Magic Brain" />
+            <p>
+              The Magic Brain app detects faces in images from the Web using the face recognition system from Clarifai's API. It was built with React.js for the Front-End, and Node.js, Express.js and PostgresSQL for the Back-End. The user is able to register an email and a password which are afterwards stored inside a PostgresSQL database.
+            </p>
+            <a
+              href="https://face-recognition-brain-v1.herokuapp.com/"
+              target="_blank"
+              >See Live Now</a
+            >
+            <a
+              href="https://github.com/m-bruno/face-recognition-brain"
+              target="_blank"
+              >Source Code</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section id="whatsapp">
-          <a href="https://wa.me/+5491167802323" target="_blank">
-            <img src="./assets/whatsapp.png">
+    <section id="Toolbox">
+      <h2>Toolbox</h2>
+      <div class="toolbox-container">
+        <div class="dev-toolbox">
+          <a
+            href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/html5/html5-original.svg"
+              alt="HTML5"
+            />
           </a>
-        </section>
+          <a
+            href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/css3/css3-original.svg"
+              alt="CSS3"
+            />
+          </a>
+          <a
+            href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/sass/sass-original.svg"
+              alt="Sass"
+            />
+          </a>
+          <a
+            href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/bootstrap/bootstrap-plain.svg"
+              alt="Bootstrap"
+            />
+          </a>
+          <a
+            href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/javascript/javascript-original.svg"
+              alt="JavaScript"
+            />
+          </a>
+          <a
+            href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/react/react-original.svg"
+              alt="React"
+            />
+          </a>
+          <a
+            href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/redux/redux-original.svg"
+              alt="Redux"
+            />
+          </a>
+          <a
+            href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/gatsby/gatsby-original.svg"
+              alt="Gatsby"
+            />
+          </a>
+          <a
+            href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/nodejs/nodejs-original.svg"
+              alt="NodeJS"
+            />
+          </a>
+          <a
+            href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/express/express-original.svg"
+              alt="ExpressJS"
+            />
+          </a>
+          <a
+            href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/postgresql/postgresql-original.svg"
+              alt="Postgres"
+            />
+          </a>
+          <a
+            href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/heroku/heroku-original.svg"
+              alt="Heroku"
+            />
+          </a>
+          <a
+            href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/git/git-original.svg"
+              alt="Git"
+            />
+          </a>
+          <a
+            href="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/github/github-original.svg"
+              alt="GitHub"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
 
-        <a id="back-to-top">Back to Top</a>
-    
-        <footer>Martin Bruno - 2021</footer>
+    <section id="Contact">
+      <h2 id="contact-title">Let's work together!</h2>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/martin-bruno/"
+          target="_blank"
+          id="linkedin"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/m-bruno" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </section>
 
-        <script type="text/javascript" src="script.js"></script>
-    </body>
+    <section id="whatsapp">
+      <a href="https://wa.me/+5491167802323" target="_blank">
+        <img src="./assets/whatsapp.png" />
+      </a>
+    </section>
+
+    <a id="back-to-top">Back to Top</a>
+
+    <footer>Martin Bruno - 2021</footer>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>
