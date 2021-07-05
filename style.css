@@ -134,7 +134,7 @@ html, body {
 
 .about-me img{ 
     margin: 1em;
-    max-width: 70%;
+    max-width: 20%;
     height: auto;   
 }
 
@@ -449,6 +449,9 @@ footer {
         font-size: 0.7em;
     }
 
+    .about-me img {
+        max-width: 60vw;
+    }
     #About a {
         font-size: 0.6em;
     }
@@ -754,6 +757,10 @@ footer {
         font-size: 0.8em;
     }
 
+    .about-me img {
+        max-width: 60vw;
+    }
+
     #About a {
         font-size: 0.8em;
     }
@@ -901,6 +908,10 @@ footer {
     }
     .about-me p {
         font-size: 1em;
+    }
+
+    .about-me img {
+        max-width: 30vw;
     }
     #projects-title {
         font-size: 3em;
